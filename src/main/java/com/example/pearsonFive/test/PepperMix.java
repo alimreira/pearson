@@ -5,7 +5,7 @@ public class PepperMix {
     private int chilliPepper;
     private int scotchBonnet;
 
-    JollofRice jf = new JollofRice(12,7,"italian",new PepperMix(12,20,20),
+    JollofRice jf = new JollofRice(12,7L,"italian",new PepperMix(12,20,20),
             new SpiceAndSeasoning(5,4,3,4));
 
     public PepperMix(int tomatoes, int chilliPepper, int scotchBonnet) {
