@@ -19,7 +19,7 @@ public class JollofRice {
 
 
     public static void main(String[] args) {
-        JollofRice jr = new JollofRice(5,2,"Thai",new PepperMix(5,8,6),new SpiceAndSeasoning(2,2,1,2));
+        JollofRice jr = new JollofRice(5,2L,"Thai",new PepperMix(5,8,6),new SpiceAndSeasoning(2,2,1,2));
         System.out.println(jr);
     }
 }
