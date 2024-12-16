@@ -5,14 +5,14 @@ public class JollofRice {
     private int riceQuantityInCups;
     private final int saltInSpoon = 1;
     private Long waterInCup;
-    private String riceBrand;
+    private String riceManufacturer;
     private PepperMix pepperMix;
     private SpiceAndSeasoning spiceAndSeasoning;
 
-    public JollofRice(int riceQuantityInCups, Long waterInCup, String riceBrand, PepperMix pepperMix, SpiceAndSeasoning spiceAndSeasoning) {
+    public JollofRice(int riceQuantityInCups, Long waterInCup, String riceManufacturer, PepperMix pepperMix, SpiceAndSeasoning spiceAndSeasoning) {
         this.riceQuantityInCups = riceQuantityInCups;
         this.waterInCup = waterInCup;
-        this.riceBrand = riceBrand;
+        this.riceManufacturer = riceManufacturer;
         this.pepperMix = pepperMix;
         this.spiceAndSeasoning = spiceAndSeasoning;
     }
